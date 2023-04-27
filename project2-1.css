@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Biryani&family=Black+Han+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Biryani&family=Black+Han+Sans&family=Vollkorn:wght@800&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+.navbar{
+    /*for navbar ke before waala pura bhar jaae*/
+    position: relative;
+    margin: 0px 0px 0px 0px;
+}
+.navbar ul{
+    margin: 0px 0px;
+    height:60px;
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.navbar li a{
+    margin: 0px 14px;
+    border-radius:14px;
+    padding: 4px 10px;
+    font-size: 14px;
+    font-weight: 700;
+    text-shadow: 1px 1px black;
+    font-family: 'Biryani', sans-serif;
+    color: white;
+    text-decoration: none;
+}
+.navbar li a:hover{
+
+    background-color: rgba(10, 10, 10, 0.5);
+}
+
+.home{
+    height: 457px;
+    margin: 68px 0px 0px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.home::before{
+    content: " ";
+    position: absolute;
+    background: url(images/project2/bgtop.jpg) no-repeat center center/cover;
+    height: 713px;
+    width: 100%;
+    z-index: -2;
+    opacity: 0.9;
+}
+#text1{
+    color: white;
+    font-family: 'Black Han Sans', sans-serif;
+    font-style: italic;
+    margin: 0px 0px 0px 0px;
+    font-size: 61px;
+}
+#text2{
+    font-family: 'Biryani', sans-serif;
+    color: white;
+    margin: 37px 0px 0px 0px;
+    font-size: 24px;
+}
+
+.aboutus{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 539px;
+    width: 100%;
+    margin : 160px 0px 0px 0px;
+    text-align: center;
+
+}
+.aboutus h1{
+    margin-top:0px;
+    font-family: 'Biryani', sans-serif;
+    font-size:20px;
+}
+.aboutus>h1{
+    font-size: 40px;
+}
+.contabt{
+    display: flex;
+}
+.contabt div{
+    border:2px solid black;
+    padding: 0px 0px;
+    border-radius: 14px;
+    height:300px;
+    width:30%;
+    margin: 30px 20px;
+}
+
+
+.contab1{
+    background-image:url(images/project2/delivery.jpg) ;
+
+}
+
+
+.contab1text{
+    text-align: left;
+    padding :12px 8px;
+    color: black;
+    margin:0px 0px 0px 0px;
+    background-color: rgb(240, 247, 247,0.7);
+    border-radius: 14px;
+}
+.contab1 h1{
+    margin: 0px 0px 0px 0px;
+}
+.contab1 p{
+    margin : 9px 0px 0px 0px;
+}
+.contab2{
+    background-image:url(images/project2/dining.jpg) ;
+
+}
+
+
+.contab2text{
+    text-align: left;
+    padding :12px 8px;
+    color: black;
+    margin:0px 0px 0px 0px;
+    background-color: rgb(240, 247, 247,0.7);
+    border-radius: 14px;
+}
+.contab2 h1{
+    margin: 0px 0px 0px 0px;
+}
+.contab2 p{
+    margin : 9px 0px 0px 0px;
+}
+.contab3{
+    background-image:url(images/project2/club.jpg) ;
+
+}
+
+
+.contab3text{
+    text-align: left;
+    padding :12px 8px;
+    color: black;
+    margin:0px 0px 0px 0px;
+    background-color: rgb(240, 247, 247,0.7);
+    border-radius: 14px;
+}
+.contab1,.contab2,.contab3{
+    transition: all 0.5s;
+}
+.contab3 h1{
+    margin: 0px 0px 0px 0px;
+}
+.contab3 p{
+    margin : 9px 0px 0px 0px;
+}
+.contab1:hover,.contab2:hover,.contab3:hover{
+    transform: scale(1.1);
+}
+.contactus{
+    display: flex;
+    flex-direction: column;
+
+    height: 539px;
+    width: 100%;
+    margin : 80px 0px 0px 0px;
+    text-align: center;
+
+}
+.contacthead{
+    color: rgb(29, 29, 30);
+    display: flex;
+    flex-direction: column;
+    height:100px;
+    width:100%;
+    align-items: center;
+    margin: 250px 0px 0px 0px;
+
+}
+.contactus::before{
+    content: " ";
+    position: absolute;
+    height: 640px;
+    width: 100%;
+    background-image: url(images/project2/contactus.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px -81px;
+    z-index: -1;
+}
+.contacthead h1{
+    font-size: 34px;
+    margin:0px 0px 20px 0px;
+}
+
