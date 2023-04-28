@@ -49,7 +49,7 @@ body{
 .home::before{
     content: " ";
     position: absolute;
-    background: url(images/project2/bgtop.jpg) no-repeat center center/cover;
+    background: url(images/bgtop.jpg) no-repeat center center/cover;
     height: 713px;
     width: 100%;
     z-index: -2;
@@ -102,7 +102,7 @@ body{
 
 
 .contab1{
-    background-image:url(images/project2/delivery.jpg) ;
+    background-image:url(images/delivery.jpg) ;
 
 }
 
@@ -122,7 +122,7 @@ body{
     margin : 9px 0px 0px 0px;
 }
 .contab2{
-    background-image:url(images/project2/dining.jpg) ;
+    background-image:url(images/dining.jpg) ;
 
 }
 
@@ -142,7 +142,7 @@ body{
     margin : 9px 0px 0px 0px;
 }
 .contab3{
-    background-image:url(images/project2/club.jpg) ;
+    background-image:url(images/club.jpg) ;
 
 }
 
@@ -192,7 +192,7 @@ body{
     position: absolute;
     height: 640px;
     width: 100%;
-    background-image: url(images/project2/contactus.jpg) ;
+    background-image: url(images/contactus.jpg) ;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 0px -81px;
